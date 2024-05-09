@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.27)
 
-set(PROJECT_ID shapes_1)
+set(PROJECT_ID shapes_2)
 
 set(SOURCE_FILES
         src/shapes.cpp

@@ -1,1 +1,1 @@
-Własnoręcznie utwórz nowy projekt CMake i odpowiednio go skonfiguruj.
+Jako szkieletu użyj wzorcowego rozwiązania poprzedniego etapu tego zadania.

@@ -2,6 +2,8 @@
 // Created by Iskra on 18.04.2024.
 //
 #include <cmath>
+#include <vector>
+
 #ifndef SHAPES_1_SHAPES_HPP
 #define SHAPES_1_SHAPES_HPP
 class Shape{
@@ -27,4 +29,5 @@ public:
     Circle(const double& x, const double& y, const double& radius): Shape(x, y), radius_(radius){}
     [[nodiscard]] double area() const override{return radius_*radius_*M_PI;};
 };
+double calculate_total_area(const std::vector<Shape*>& shapes);
 #endif //SHAPES_1_SHAPES_HPP

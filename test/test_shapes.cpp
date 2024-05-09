@@ -19,3 +19,13 @@ EXPECT_EQ(circle.area(), M_PI);
 Shape& shape = circle;
 EXPECT_EQ(shape.area(), M_PI);
 }
+TEST(ShapesAuxTest, totalAreaOfShapeCollection) {
+    std::vector<std::unique_ptr<Shape>> shapes;
+    shapes.push_back(std::make_unique<Square>(2, 2, 2));
+    shapes.push_back(std::make_unique<Circle>(0, 0, 2));
+    std::vector<Shape*> shape_ptrs;
+
+    std::transform(shapes.begin(), shapes.end(), std::back_inserter(shape_ptrs),
+                   [](std::unique_ptr<Shape>& u_ptr){return u_ptr.get();}
+                   );
+}
