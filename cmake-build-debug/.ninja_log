@@ -1,0 +1,12 @@
+# ninja log v5
+6	330	7351508035460884	CMakeFiles/shapes_1__test.dir/test/test_shapes.cpp.obj	6b379d5413e7cb27
+23	381	7351508035490816	CMakeFiles/shapes_1__test.dir/src/shapes.cpp.obj	d6403c9e86a2863b
+35	4349	7351508075791451	CMakeFiles/shapes_1__test.dir/test/main_gtest.cpp.obj	6b48cd07d25c7973
+331	7417	7351508106375434	googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj	d7e8c6255011cac0
+381	13734	7351508169396673	googletest-master/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	34dc184738c11a80
+13738	18805	7351508220358300	lib/libgtest.a	b0c0bb2221528330
+18805	19486	7351508227170079	lib/libgmock.a	289fb479bdfa782
+19486	24940	7351508281619724	shapes_1__test.exe	7a3cdbb7c3f5cb85
+12	593	7351617822824810	CMakeFiles/shapes_1__test.dir/src/shapes.cpp.obj	d6403c9e86a2863b
+25	2966	7351617846591811	CMakeFiles/shapes_1__test.dir/test/test_shapes.cpp.obj	6b379d5413e7cb27
+2966	8556	7351617902390804	shapes_1__test.exe	7a3cdbb7c3f5cb85
